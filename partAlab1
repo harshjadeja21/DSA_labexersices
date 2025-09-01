@@ -1,0 +1,13 @@
+Algorithm Find_Max_Min(arr, n)
+    Set max to arr[0]
+    Set min to arr[0]
+    For i from 1 to n-1 do
+        If arr[i] > max then
+            Set max to arr[i]
+        End If
+        If arr[i] < min then
+            Set min to arr[i]
+        End If
+    End For
+    Return max and min
+End Algorithm
